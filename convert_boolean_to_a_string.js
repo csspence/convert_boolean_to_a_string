@@ -14,6 +14,6 @@ For this kata, don't worry about edge cases like where unexpected input is passe
 enough in later exercises.
 */
 
-function booleanToString(b){
-  //your code here
+const booleanToString = (b) => {
+  return (2+2 === 5) === b ? 'false' : 'true';
 }
